@@ -24,7 +24,6 @@ Welcome to my Slack Messaage Scheduler Project! This app allows you to authentic
 
 - Frontend : TypeScript/React.js
 - Backend : Node.js (with Express.js, TypeScript)
- 
 
 ---
 
@@ -38,6 +37,9 @@ Welcome to my Slack Messaage Scheduler Project! This app allows you to authentic
  - [demo video](https://1drv.ms/v/c/03da0dc246a39a47/EZHyB2AfSj1Hh3YJZvvrQdABpfZX3a729wIGTzkqJsj-8Q)
 
 ---
+
+## Deployment Link:
+- (https://slack-connect-app-f.onrender.com/)
 
 ## Setup Instructions
 
@@ -118,7 +120,7 @@ All tokens are securely stored in the backend and never exposed to the frontend.
 ##  Deployment
 
 
-- Frontend: Render 
+- Frontend: Render (https://slack-connect-app-f.onrender.com/)
 
 - Backend: Render 
 
