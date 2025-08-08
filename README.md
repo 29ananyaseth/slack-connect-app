@@ -35,7 +35,7 @@ Welcome to my Slack Messaage Scheduler Project! This app allows you to authentic
   
 ---
  ## Demo Video 
- - ![demo video](https://1drv.ms/v/c/03da0dc246a39a47/EZHyB2AfSj1Hh3YJZvvrQdABpfZX3a729wIGTzkqJsj-8Q)
+ - ![demo video][(https://1drv.ms/v/c/03da0dc246a39a47/EZHyB2AfSj1Hh3YJZvvrQdABpfZX3a729wIGTzkqJsj-8Q)](https://github.com/29ananyaseth/slack-connect-app/blob/633c0ab313033cf85487d12390340ea2a0e4a245/Demo%20Video.mp4)
 
 
 ---
