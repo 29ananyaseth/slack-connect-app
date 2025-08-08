@@ -12,7 +12,8 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import Logo from './sms-logo.svg'; 
 
-const BACKEND_URL = "https://slack-connect-app-29ananyaseth.onrender.com";
+const BACKEND_URL = "https://slack-connect-app-b.onrender.com";
+
 
 
 
