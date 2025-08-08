@@ -1,20 +1,13 @@
 {
-  
   "compilerOptions": {
-  
     "module": "NodeNext",
     "target": "esnext",
     "types": [],
-  
-    // Other Outputs
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-
-    // Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-
     "strict": true,
     "jsx": "react-jsx",
     // "moduleResolution": "NodeNext",
@@ -27,6 +20,8 @@
     "lib": ["ES2020"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "outDir": "./dist"
-  }
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src"]
 }
