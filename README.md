@@ -66,6 +66,7 @@ Welcome to my Slack Messaage Scheduler Project! This app allows you to authentic
 
 npm run dev
 
+
 ## 3. Frontend Setup
 
 cd ../frontend
@@ -81,6 +82,7 @@ npm start
 
 ---
 
+
 ## Architectural Overview
 
 - OAuth 2.0 Flow:
@@ -92,6 +94,8 @@ npm start
 - Implements refresh token logic to maintain seamless access.
 
 ---
+
+
 
 ## Message Scheduling:
 
@@ -107,7 +111,13 @@ The UI displays all scheduled messages with options to cancel any before their s
 
 All tokens are securely stored in the backend and never exposed to the frontend.
 
+
+---
+
+
 ##  Deployment
+
+
 - Frontend: Render 
 
 - Backend: Render 
