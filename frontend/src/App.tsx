@@ -12,7 +12,8 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import Logo from './sms-logo.svg'; 
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+const BACKEND_URL = "https://slaek-connect-app-29ananyaseth.onrender.com";
+
 
 
 
