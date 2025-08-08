@@ -5,16 +5,18 @@ import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 
+
 dotenv.config();
 
 const app = express();
+const PORT = process.env.PORT || 10000;
 app.use(express.json());
 app.use(cors());
 
 const CLIENT_ID = process.env.SLACK_CLIENT_ID;
 const CLIENT_SECRET = process.env.SLACK_CLIENT_SECRET;
 const REDIRECT_URI = process.env.SLACK_REDIRECT_URI;
-const PORT = process.env.PORT || 5000;
+
 
 // --- Load/Save scheduled messages ---
 function loadScheduledMessages() {
@@ -222,6 +224,10 @@ setInterval(async () => {
 }, 5 * 1000); // Check every 5 seconds
 
 //--start server--
+app.get("/", (req, res) => {
+  res.send("Backend is working!");
+});
+
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
